@@ -13,7 +13,7 @@ end
 
 def long_planeteer_calls(calls_long)
  call > 4 ? true : false
- calls_long.collect{|call| call = calls_long.count()}
+ calls_long.collect
  yield call
 end
 
