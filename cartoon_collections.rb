@@ -15,11 +15,12 @@ def long_planeteer_calls(calls_long)
   i = 4
   call = calls_long.collect
   calling = call.count()
-  c_ll = (calling >= i ? true : false)
-  while calling >= i 
-    yield(c_ll)
+  calling >= i ? true : false
+  if calling >= i 
+    return 
+    false 
   end
-  c_ll
+
 end
 
 def find_the_cheese# code an argument here
