@@ -12,11 +12,12 @@ def summon_captain_planet(planeteer_calls)
 end
 
 def long_planeteer_calls(calls_long)
-  i = 4
+  i = 3
   call = calls_long.collect
   calling = call.count()
-  simple= calling.any?{ |num| num>i}
-  simple
+  calling >= i ? true : false   
+  
+
 end
 
 def find_the_cheese# code an argument here
