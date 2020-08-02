@@ -1,5 +1,3 @@
-require 'pry'
-install 
 
 dwarves= ["Doc","Dopey","Bashful","Grumpy"]
 def roll_call_dwarves(dwarves)
