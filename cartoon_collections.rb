@@ -12,10 +12,11 @@ def summon_captain_planet(planeteer_calls)
 end
 
 def long_planeteer_calls(calls_long)
- i = 3
- call = calls_long.collect
- calling = call.count()
+  i = 3
+  call = calls_long.collect
+  calling = call.count()
   calling >= i ? true : false   
+    yield calling.any
 
 end
 
