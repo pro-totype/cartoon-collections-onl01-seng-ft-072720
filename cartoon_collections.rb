@@ -18,8 +18,8 @@ def long_planeteer_calls(calls_long)
   calling >= i ? true : false
   if calling >= i 
     false
-  else
-    true
+    yield
+    
   end
 end
 
