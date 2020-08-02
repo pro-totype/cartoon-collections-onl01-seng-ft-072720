@@ -12,7 +12,7 @@ def summon_captain_planet(planeteer_calls)
 end
 
 def long_planeteer_calls(calls_long)
- call > 4 ?
+ call > 4 ? true : false
  calls_long.collect{|call| call = calls_long.count()}
 end
 
