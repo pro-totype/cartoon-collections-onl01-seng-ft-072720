@@ -9,7 +9,6 @@ def summon_captain_planet(planeteer_calls)
   calls = []
   planeteer_calls.collect{|calls| calls = calls.capitalize() + "!"}
   
-  
 end
 
 def long_planeteer_calls(calls_long)
