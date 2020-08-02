@@ -15,7 +15,7 @@ def long_planeteer_calls(calls_long)
  i = 4
  call = calls_long.collect
  calling = call.count()
-  calling > i ? true : false   
+  calling < i ? true : false   
 
 end
 
