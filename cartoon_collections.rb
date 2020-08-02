@@ -18,8 +18,7 @@ def long_planeteer_calls(calls_long)
   c_ll = (calling >= i ? true : false)
   if calling >= i 
     false
-    yield
-    c_ll
+    yield c_ll
   end
 end
 
