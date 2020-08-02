@@ -14,8 +14,6 @@ end
 def long_planeteer_calls(calls)
   value = (calls.each.length > 4)? true : false 
   value
-  else 
-    
 end
 
 def find_the_cheese# code an argument here
