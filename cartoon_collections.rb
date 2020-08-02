@@ -12,7 +12,8 @@ def summon_captain_planet(planeteer_calls)
 end
 
 def long_planeteer_calls(calls)
-  value = (calls.each.length > 4)? true : false 
+  candor = []
+  calls.
   value
 end
 
