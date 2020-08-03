@@ -16,7 +16,7 @@ def long_planeteer_calls(calls_long)
   call = calls_long.collect
   calling = call.count()
   calling >= i ? true : false
-  calling.all <= i ? false : true 
+  calling.each <= i ? false : true 
 end
 
 def find_the_cheese# code an argument here
